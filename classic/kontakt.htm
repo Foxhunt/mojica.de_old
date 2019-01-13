@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Kontaktformular Mojica</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#996699" link="#3333FF" alink="#0000CC" vlink="#333366">
+<div align="right">
+  <p><a href="index.htm"><img src="Bilder/mojica_logo26.gif" width="208" height="92" border="0"></a></p>
+  <p align="left"><font face="Arial, Helvetica, sans-serif" color="#3333FF">Bitte 
+    nutzen Sie nachfolgendes Formular f&uuml;r Fragen, Angebotsanforderungen oder 
+    Mitteilungen</font><font face="Arial, Helvetica, sans-serif" color="#3333FF">:</font></p>
+  <form method="post" action="/cgi-bin/mailmanager.pl" name="feedback">
+    <input type="hidden" name="recipient" value="feedback@mojica.de">
+    <table width="68%" border="2" align="center" bordercolor="#0099FF" bgcolor="#0000CC">
+      <tr bgcolor="#66CCFF"> 
+        <td width="15%">Name</td>
+        <td colspan="2"> 
+          <input type="text" name="Name" size="60" maxlength="60">
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF"> 
+        <td width="15%" bordercolor="#009999">Strasse</td>
+        <td colspan="2"> 
+          <input type="text" name="Strasse" size="60" maxlength="60">
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF"> 
+        <td width="15%">Plz, Ort</td>
+        <td colspan="2"> 
+          <input type="text" name="Ort" maxlength="60" size="60">
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF">
+        <td width="15%">Tel.:</td>
+        <td colspan="2">
+          <input type="text" name="Telefon" maxlength="60" size="60">
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF"> 
+        <td width="15%">E-Mail</td>
+        <td colspan="2"> 
+          <p> 
+            <input type="text" name="Email" size="60" maxlength="60">
+          </p>
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF"> 
+        <td width="15%" bordercolor="#009999">Ihre Mitteilung</td>
+        <td colspan="2"> 
+          <textarea name="Bemerkung" cols="60" rows="5" wrap="VIRTUAL">Bitte geben Sie hier Ihre Mitteilung oder Fragen ein.</textarea>
+        </td>
+      </tr>
+      <tr bgcolor="#66CCFF"> 
+        <td colspan="3"> 
+          <div align="right"> 
+            <input type="reset" name="zur&uuml;cksetzen" value="zur&uuml;cksetzen">
+            <input type="submit" name="senden" value="Abschicken">
+          </div>
+        </td>
+      </tr>
+    </table>
+    <input type="hidden" name="subject" value="Formularfeedback">
+  </form>
+  <p align="left">&nbsp;</p>
+  <p align="left"><a href="index.htm">Home</a></p>
+</div>
+</body>
+</html>
