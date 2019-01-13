@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<script src="libs/svg.js" defer></script>
+	<script src="libs/svg.easing.min.js" defer></script>
+	<script src="libs/Controlls.js"></script>
+	<script src="animations/svg-main.js" defer></script>
+	<script src="animations/arts.js" defer></script>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<style>
+		main {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			font-size: 4vmin;
+			font-family: sans-serif;
+			transform: translate(-50%, -50%);
+		}
+
+		#drawing {
+			position: absolute;
+			left: 40vw;
+			top: -5vh;
+		}
+
+		#arts {
+			position: absolute;
+			left: 40vw;
+			top: -5vh;
+		}
+
+		.controll {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		Marco Mojica<br>
+		<br> +49 1515 4750027<br>
+		<a href="mailto:Marco@Mojica.de">Marco@Mojica.de</a><br>
+		<br> Sittardstraße 33<br> 41061 Mönchengladbach
+
+		<div width="300" height="300" id="drawing"></div>
+		<div width="300" height="300" id="arts"></div>
+		<div width="300" height="300" id="export"></div>
+		<canvas width="300" height="300" id="canvas">
+			
+		</canvas>
+	</main>
+</body>
+
+</html>
