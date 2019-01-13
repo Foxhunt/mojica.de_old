@@ -1,7 +1,0 @@
-AuthUserFile /www/htdocs/mojica//cgi-bin/sysinfo//.htpasswd
-AuthGroupFile /dev/null
-AuthName ByPassword
-AuthType Basic
-<Limit GET POST>
-require user mojica
-</Limit>
