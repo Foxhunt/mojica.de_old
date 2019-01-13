@@ -3,11 +3,6 @@
   "name": "mojica.de",
   "alias": ["marco.mojica.de", "mojica.de"], 
   "builds": [
-    { "src": "**/*.html", "use": "@now/html-minifier" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/classic", "dest": "/classic" },
-    { "src": "/breathe", "dest": "/breathe" }
+    { "src": "**/*", "use": "@now/static" }
   ]
 }
